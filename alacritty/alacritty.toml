@@ -1,0 +1,46 @@
+
+
+[cursor]
+style = "Beam"
+unfocused_hollow = false
+
+[font]
+size = 13
+
+[font.bold]
+style = "Bold"
+
+[font.bold_italic]
+style = "Bold Italic"
+
+[font.italic]
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono Nerd Font"
+style = "Bold"
+
+[window]
+decorations = "None"
+#opacity = 0.8
+#blur = true
+option_as_alt = "Both"
+startup_mode = "Windowed"
+
+[window.padding]
+x = 15
+y = 15
+
+[env]
+ALACRITTY = "true"
+
+[general]
+live_config_reload = true
+import = ["~/.config/alacritty/mellow.toml"]
+
+
+[keyboard]
+bindings = [
+    { key = "N", mods = "Control", action = "CreateNewWindow" },
+    { key = "Q", mods = "Control", action = "Quit" },
+]
